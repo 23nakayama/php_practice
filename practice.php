@@ -37,6 +37,49 @@ $calendar_2018 = [
 // 12月を表示する
 echo $calendar_2018["December"];
 
+echo "\n";
+$total = 0;
+ echo $total;
+for ($i = 0; $i <= 100; $i++) {
+  $total += $i;
+}
+echo $total;
+echo "\n";
+
+echo "\n";
+$fruits = array("apple", "orange", "lemon");
+echo count($fruits);
+echo "\n";
+for ($i = 0; $i < count($fruits); $i++) {
+  echo "要素は" . $fruits[$i];
+  echo "\n";
+}
+echo "\n";
+$name = "yumie";
+if ($name == "yumie"){
+  echo "私はゆみえです。";
+} else {
+  echo "あなたの名前では、ありません。";
+}
+echo "\n";
+$total = 0;
+for ($i = 0; $i <= 1000; $i++) {
+  $total += $i;
+}
+echo $total;
+echo "\n";
+
+$fruits = array("もも","ぶどう","青いミカン","夕張メロン");
+foreach($fruits as $fruits){
+  echo "好きな果物は" . $fruits;
+  echo "\n";
+}
 
 
-
+echo"\n";
+$start = 1;
+$end = 100;
+for($i = $start; $i < $end; $i++){
+  if($i % 5 == 0)
+    echo $i;
+}
